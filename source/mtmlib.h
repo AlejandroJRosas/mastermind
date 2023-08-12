@@ -8,14 +8,6 @@
 #define MAX_FILAS 26
 #define MAX_COLUMNAS 40
 
-//  Estructuras del Tablero
-char tablero[MAX_FILAS][MAX_COLUMNAS];
-int  filas, columnas;
-/*************************************/
-
-//  Vector de colores que será usado en el juego.
-const char *colores;
-
 /*	  Funciones de visualización de Juego	  */
 
 //  Hace uso del comando clean y limpia la pantalla.

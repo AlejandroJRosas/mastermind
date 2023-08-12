@@ -1,7 +1,7 @@
 CC = gcc -Wall
 OBJECTS = source/main.o source/mtmlib.o
 
-juego: all clean
+juego: all clear
 
 all: $(OBJECTS)
 	$(CC) $(OBJECTS) -o juego
@@ -9,6 +9,6 @@ all: $(OBJECTS)
 source/main.o:	source/mtmlib.h
 source/mtmlib.o: source/mtmlib.h
 
-.PHONY: clean
-clean:
+.PHONY: clear
+clear:
 	rm -rf source/*.o

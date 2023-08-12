@@ -3,6 +3,11 @@
 //	Declaracion de vector de colores.
 const char *colores = "ZVRALPON";
 
+//  Estructuras del Tablero
+char tablero[MAX_FILAS][MAX_COLUMNAS];
+int  filas, columnas;
+/*************************************/
+
 //	Funciones de Limpieza de pantalla
 void limpieza(void){
 	#ifdef UNIX
